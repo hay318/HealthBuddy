@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.unc.hanbit.healthbuddy.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        app:srcCompat="@drawable/main" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonOnClick"
+        android:text="Heart Rate"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonOnClick"
+        android:text="Alarm"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fun Activities"
+        android:textAlignment="center"
+        android:onClick="buttonOnClick"
+        />
+
+    <Button
+        android:id="@+id/emergency"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="911"
+        android:textAlignment="center"
+        android:onClick="buttonOnClick"
+        />
+
+</LinearLayout>
