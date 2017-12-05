@@ -16,6 +16,10 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="8dp" />
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="343dp" />
     <WebView
         android:id="@+id/webView"
         android:layout_width="match_parent"

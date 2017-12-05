@@ -3,30 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/HanBit/.android/build-cache/31716a9167932aeabe4e6a7bba9645e0b58f112b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
-        <dex dex="/Users/HanBit/Desktop/HealthBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b08fc788edec496932a0a5f566321139eeae9ab1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/HanBit/Desktop/HealthBuddy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c2d487fd0460d3b5797bd8c3b7a8e906b0049ca5">
-        <dex dex="/Users/HanBit/Desktop/HealthBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8ea687014f377c4c35025ef525f10cd75f673b51/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/HanBit/Desktop/HealthBuddy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/HanBit/Desktop/HealthBuddyAndroid-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/HanBit/Desktop/HealthBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3be95483d994e1e24a2412265ccaeb9f57f62bca/classes.dex" />
+        <dex dex="/Users/HanBit/Desktop/HealthBuddyAndroid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cc1342a496471b3c747001c16abf9ce5a1b4212c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HanBit/Desktop/HealthBuddyAndroid-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0224cde386d2548e2bcb4865a3aa82c9c373a7d7">
+        <dex dex="/Users/HanBit/Desktop/HealthBuddyAndroid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5f1343dcf3a2b81e64b8f87ae5a936336056f0fe/classes.dex" />
     </item>
 
 </items>

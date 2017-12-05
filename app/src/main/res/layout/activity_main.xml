@@ -7,10 +7,27 @@
     android:orientation="vertical"
     tools:context="edu.unc.hanbit.healthbuddy.MainActivity">
 
+    <CheckBox
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Parents"
+        android:onClick="buttonOnClick"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/email"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:text="Email Parents"-->
+        <!--android:onClick="buttonOnClick"/>-->
+
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="381dp"
+        android:layout_height="291dp"
         app:srcCompat="@drawable/main" />
 
     <Button

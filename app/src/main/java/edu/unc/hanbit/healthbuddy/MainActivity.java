@@ -2,16 +2,22 @@ package edu.unc.hanbit.healthbuddy;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.hardware.Sensor;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
 
     private static final int REQUEST_PHONE_CALL = 0;
     String uri = "tel://911";
@@ -20,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void buttonOnClick(View v) {
@@ -31,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if (v.getId() == R.id.activity) {
             startActivity(new Intent(getApplicationContext(), ExerciseActivity.class));
+        }
+        if(v.getId()==R.id.email){
+            startActivity(new Intent(getApplicationContext(), EmailActivity.class));
         }
 
         //911
